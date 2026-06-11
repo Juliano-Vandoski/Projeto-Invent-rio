@@ -1,0 +1,9 @@
+# Git LFS notice
+
+If you plan to add the downloaded file to the repository and it is larger than 100 MB, enable Git LFS and track the file:
+
+  git lfs install
+  git lfs track "data/dados_drive.zip"
+  git add .gitattributes
+
+Then add the downloaded file and commit as usual.
